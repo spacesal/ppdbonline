@@ -9,7 +9,7 @@
             <!-- Navbar-->
             <ul class="navbar-nav ms-auto ms-md-0 me-3 ">
                 <li>
-                    <a href="<?php site_url('logout'); ?>" aria-expanded="false"><i class="fas fa-power-off"></i></a>
+                    <a href="<?php site_url('home/'); ?>" aria-expanded="false"><i class="fas fa-power-off"></i></a>
                 </li>
             </ul>
         </nav>

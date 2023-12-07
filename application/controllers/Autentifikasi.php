@@ -1,21 +1,21 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Register extends CI_Controller{
+class Autentifikasi extends CI_Controller{
 
     public function __construct()
     {
         parent::__construct();
-        $this->load->model('auth');
+        //Codeigniter : Write Less Do More
     }
 
-    function index()
+    function login()
     {
-        $this->load->view('auth/register');
+    
     }
     public function prosesregister()
 	{
-		$this->form_validation->set_rules('username', 'username','trim|required|min_length[1]|max_length[255]');
+		$this->form_validation->set_rules('username', 'username','trim|required|min_length[1]|max_length[255]|is_unique[tb_user.username]');
 		$this->form_validation->set_rules('email', 'email','trim|required|min_length[1]|max_length[255]');
 		$this->form_validation->set_rules('password', 'password','trim|required|min_length[1]|max_length[255]');
 		if ($this->form_validation->run()==true)
@@ -33,4 +33,5 @@ class Register extends CI_Controller{
 			redirect('home/register');
 		}
 	}
+
 }

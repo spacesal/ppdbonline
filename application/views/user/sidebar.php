@@ -10,13 +10,9 @@
                     </a>
                     
                     <div class="sb-sidenav-menu-heading">Formulir</div>
-                    <a class="nav-link" href="<?php echo site_url('user/pendaftaran_paud'); ?>">
+                    <a class="nav-link" href="<?php echo site_url('user/pendaftaran'); ?>">
                         <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
-                        Pendaftaran PAUD
-                    </a>
-                    <a class="nav-link" href="tables.html">
-                        <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
-                        Pendaftaran SD
+                        Formulir pendaftaran
                     </a>
                 </div>
             </div>

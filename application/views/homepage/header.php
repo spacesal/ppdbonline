@@ -12,6 +12,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="<?= base_url('assets/'); ?>css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 </head>
 <body>
     <!-- Responsive navbar-->
@@ -39,7 +40,7 @@
                         <p class="lead text-white-50 mb-4">Website Pendaftaran Peserta Didik Baru Sekolah AL-BIRUNI Tahun Ajaran 2024/2025</p>
                         <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
                             <a class="btn btn-primary btn-lg px-4 me-sm-3" href="<?php echo site_url('home/login')?>">LOGIN</a>
-                            <a class="btn btn-outline-light btn-lg px-4" href="<?php echo site_url('home/register')?>">REGISTER</a>
+                            <a class="btn btn-outline-light btn-lg px-4" href="<?php echo site_url('register')?>">REGISTER</a>
                         </div>
                     </div>
                 </div>

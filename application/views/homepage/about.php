@@ -13,7 +13,6 @@
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="<?= base_url('assets/'); ?>css/styles.css" rel="stylesheet" />
 </head>
-
 <body>
     <!-- Responsive navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">

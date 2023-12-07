@@ -38,8 +38,13 @@
                         +62 856 4298 8735 (PAUD)<br>
                         +62 852 2516 8542 (SD)
                         </p>
+                        <a class="social-media-icon" href=""><span class="bi bi-facebook"></span></a>
+                        <a class="social-media-icon" href=""><span class="bi bi-whatsapp"></span></a>
+                        <a class="social-media-icon" href=""><span class="bi bi-instagram"></span></a>
+                        <a class="social-media-icon" href=""><span class="bi bi-twitter"></span></a>
                     </div>
                 </div>
+                <br<br><br><br><br><br><br>
             </div>
         </div>
     </header>

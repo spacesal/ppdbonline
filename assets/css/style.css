@@ -64,6 +64,19 @@ body{
 .form a:hover{
   text-decoration: underline;
 }
+.button{
+  color: #fff;
+  background: black;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 1.7rem;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.button:hover{
+  background: black;
+}
 .form input.button{
   color: #fff;
   background: black;
@@ -97,4 +110,11 @@ body{
 }
 .signup a:hover{
   text-decoration: underline;
+}
+.social-media-icon {
+  padding: 2px 3px 1px 3px;
+  background: #222;
+  color: #fff;
+  margin: 5px;
+  border-radius: 4px;
 }

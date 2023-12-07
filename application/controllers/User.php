@@ -16,12 +16,18 @@ class User extends CI_Controller{
         $this->load->view('user/sidebar');
         $this->load->view('user/index');
     }
-    function pendaftaran_paud()
+    function pendaftaran()
     {
         $this->load->view('user/header');
         $this->load->view('user/topbar');
         $this->load->view('user/sidebar');
-        $this->load->view('user/pendaftaran_paud');
+        $this->load->view('user/pendaftaran');
         
+    }
+    function pendaftaran_paud(){
+        $this->load->view('user/header');
+        $this->load->view('user/topbar');
+        $this->load->view('user/sidebar');
+        $this->load->view('user/pendaftaran_paud');
     }
 }
